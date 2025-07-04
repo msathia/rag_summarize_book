@@ -1,0 +1,146 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+my_rag_env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ChromaDB & Vector Databases
+chroma_db_binder/
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+vector_db/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs & Temp Files
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+
+# API Keys & Secrets
+.env
+.env.local
+.env.*.local
+config.ini
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# Model Files (if you download large models)
+*.bin
+*.safetensors
+models/
+checkpoints/
+weights/
+
+# Document Uploads (optional - you might want to track some docs)
+# docs/
+# uploads/
+# documents/
+
+# Jupyter Notebooks (if you use them)
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Large files that shouldn't be in version control
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# System files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Application specific
+# Add any other files/folders specific to your RAG project here 
